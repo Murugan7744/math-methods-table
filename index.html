@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+		<html>
+			<head>
+				<title>Math-method-Table</title>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width,initial-scale=1.0">
+				<style>
+					table,th,td{
+					    border:2px solid black;
+						border-collapse:collapse;
+					    margin:auto;
+						text-align:center;	
+					}
+				
+				</style>
+			</head>
+			<body>
+				<table>
+					<caption>Math methods table</caption>
+						<tr>
+							<th>Method</th>
+							<th>Perform Working</th>
+							<th>Example</th>
+							<th>Output</th>
+						</tr>
+						<tr>
+							<td rowspan="4">abs()</td>
+							<td rowspan="4">method returns the absolute value of a number.</td>
+							<td>let a=-35;<br>const=Math.abs(a); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is -35<br>Return value is 87</td>
+						</tr>
+						<tr>
+							<td>let a=true;<br>const=Math.abs(a);<br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							 <td>input value is 1<br>Return value NAN</td>
+						 </tr>
+						 <tr>
+						    <td>let a="hello";<br>const=Math.abs(a); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is hello<br>Return value is NAN</td>
+						</tr>
+						<tr>
+						    <td>let a=null;<br>const=Math.abs(a); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is null<br>Return value is 0</td>
+						</tr>
+						<tr>
+							<td rowspan="3">Math.round()</td>
+							<td rowspan="3">method rounds a number to the nearest integer..</td>
+							<td>let a=3.35;<br>const=Math.round(a); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is 3.35<br>Return value is 3</td>
+						</tr>
+						<tr>
+							<td>let a=2.345;<br>const=Math.round(a);<br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							 <td>input value is 2.345<br>Return value 3</td>
+						 </tr>
+						 <tr>
+						    <td>let a=9.89;<br>const=Math.round(a); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is 9.89<br>Return value is  10</td>
+						</tr>
+						<tr>
+							<td rowspan="3">Math.ceil()</td>
+							<td rowspan="3">method rounds a number rounded UP to the nearest integer.</td>
+							<td>let a=3.35;<br>const=Math.ceil(a); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is 3.5<br>Return value is 4</td>
+						</tr>
+						<tr>
+							<td>let a=2.345;<br>const=Math.ceil(a);<br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							 <td>input value is -6.3<br>Return value 7</td>
+						 </tr>
+						 <tr>
+						    <td>let a=9.89;<br>const=Math.ceil(a); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is -8.8<br>Return value is  -9</td>
+						</tr>
+						<tr>
+							<td rowspan="3">Math.floor()</td>
+							<td rowspan="3">method rounds a number DOWN to the nearest integer.</td>
+							<td>let a=6.3;<br>const=Math.floor(a); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is 6.3<br>Return value is 6</td>
+						</tr>
+						<tr>
+							<td>let a=-2.345;<br>const=Math.floor(a);<br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							 <td>input value is -2.345<br>Return value -3</td>
+						 </tr>
+						 <tr>
+						    <td>let a=9.89;<br>const=Math.floor(a); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is -8.8<br>Return value is  -9</td>
+						</tr>
+						<tr>
+							<td rowspan="3">Math.sqrt()</td>
+							<td rowspan="3">method rounds a number DOWN to the nearest integer.</td>
+							<td>let a=64;<br>const=Math.sqrt(a); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is 64<br>Return value is 8</td>
+						</tr>
+						<tr>
+							<td>let a=-27;<br>const=Math.sqrt(a);<br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							 <td>input value is 27<br>Return value 3</td>
+						 </tr>
+						 <tr>
+						    <td>let a=8;<br>const=Math.sqrt(a); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is 8<br>Return value is  2</td>
+						</tr>
+						<tr>
+							<td rowspan="3">Math.cbrt()</td>
+							<td rowspan="3">method rounds a number DOWN to the nearest integer.</td>
+							<td>let a=125;<br>const=Math.cbrt(a); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is 64<br>Return value is 5</td>
+						</tr>
+						<tr>
+							<td>let a=343;<br>const=Math.cbrt(a);<br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							 <td>input value is 343<br>Return value 7</td>
+						 </tr>
+						 <tr>
+						    <td>let a=8;<br>const=Math.cbrt(a); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is 8<br>Return value is  2</td>
+						</tr>
+						<tr>
+							<td rowspan="3">Math.random()</td>
+							<td rowspan="3">method returns a random number from 0 (inclusive) up to but not including 1 (exclusive).</td>
+							<td>let a=Math.random(5); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is 5<br>Return value is 0.8160086972607474</td>
+						</tr>
+						<tr>
+							<td>let a=Math.random()*3;<br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							 <td>input value is <br>Return value 2.072835160897843</td>
+						 </tr>
+						 <tr>
+						    <td>let a=Math.floor((Math.random()*5)+2); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is <br>Return value is  3</td>
+						</tr>
+						<tr>
+							<td rowspan="3">Math.max()</td>
+							<td rowspan="3">method returns the number with the highest value.</td>
+							<td>let a=(3,9);<br>const=Math.max(a); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is 3,9<br>Return value is 9</td>
+						</tr>
+						<tr>
+							<td>let a=(7,89);<br>const=Math.max(a);<br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							 <td>input value is 7,89<br>Return value 89</td>
+						 </tr>
+						 <tr>
+						    <td>let a=23,56;<br>const=Math.max(a); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is 23,56<br>Return value is  56</td>
+						</tr>
+						<tr>
+							<td rowspan="3">Math.min()</td>
+							<td rowspan="3"> method returns the number with the lowest value.</td>
+							<td>let a=(1,2,3,9);<br>const=Math.min(a); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is 1,2,3,9<br>Return value is 1</td>
+						</tr>
+						<tr>
+							<td>let a=(3,5,7,8);<br>const=Math.min(a);<br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							 <td>input value is 3,5,7,8<br>Return value 3</td>
+						 </tr>
+						 <tr>
+						    <td>let a=(2,3,5,6);<br>const=Math.min(a); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is 2,3,5,6<br>Return value is  2</td>
+						</tr>
+						<tr>
+							<td rowspan="2">Math.trunc()</td>
+							<td rowspan="2">method returns the integer part of a number..</td>
+							<td>let a=(8.79);<br>const=Math.trunc(a); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is 8.79<br>Return value is 8</td>
+						</tr>
+						<tr>
+							<td>let a=(9.9);<br>const=Math.trunc(a);<br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							 <td>input value is 9.9<br>Return value 9</td>
+						 </tr>
+						 
+						<tr>
+							<td rowspan="2">Math.sign()</td>
+							<td rowspan="2"> method retuns whether a number is negative, positive or zero.</td>
+							<td>let a=(-3);<br>const=Math.sign(a); <br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							<td>input value is -3<br>Return value is -1</td>
+						</tr>
+						<tr>
+							<td>let a=(9);<br>const=Math.sign(a);<br>document.write(`input value is ${a},`<br> `Return value is ${b}`);</td>
+							 <td>input value is 9<br>Return value 1</td>
+						 </tr>
+						 
+				</table>
+				<script js="js/main.js"></script>
+			</body>
+			</html>			
